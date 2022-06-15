@@ -1,7 +1,7 @@
 {
   "name": "@optimaxdev/action-delete_old_branches",
   "description": "GitHub action to delete old branches",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
