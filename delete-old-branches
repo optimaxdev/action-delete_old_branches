@@ -111,7 +111,7 @@ main() {
         if [[ -z "$(git log --oneline -1 --since="${DATE}" origin/"${br}")" ]]; then
             sha=$(git show-ref -s "origin/${br}")
             default_branch_protected "${br}" && echo "branch: ${br} is a default branch. Won't delete it" && continue
-            branch_protected "${br}" && echo "branch: ${br} is likely protected. Won't delete it" && continue
+            branch_protected "${br}" && echo "branch: ${br} looks protected. Won't delete it" && continue
             extra_branch_or_tag_protected "${br}" "branch" && echo "branch: ${br} is explicitly protected and won't be deleted" && continue
             is_pr_open_on_branch "${br}" && echo "branch: ${br} has an open pull request and won't be deleted" && continue
             delete_branch_or_tag "${br}" "heads" "${sha}"
