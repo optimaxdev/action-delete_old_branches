@@ -9,8 +9,10 @@ jobs:
   buildAndTest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
         with:
+          token: ${{ secrets.GH_TOKEN }}
+          ref: ${{ github.head_ref }}
           persist-credentials: false
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@master
