@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
         with:
-          token: ${{ secrets.GH_TOKEN }}
           ref: ${{ github.head_ref }}
           persist-credentials: false
       - name: Use Node.js ${{ matrix.node-version }}
