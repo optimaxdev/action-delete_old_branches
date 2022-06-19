@@ -4,5 +4,3 @@
 ### Bug Fixes
 
 * new version ([7f7ae66](https://github.com/optimaxdev/action-delete_old_branches/commit/7f7ae66784f61f0478e9998f4b9448a7e3eff827))
-
-Hey
