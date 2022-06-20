@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.0.11...v0.1.0) (2022-06-20)
+
+
+### Features
+
+* added url encoding ([c4ac2f5](https://github.com/optimaxdev/action-delete_old_branches/commit/c4ac2f5b234fa6f8b2a0bdaae2bedb8957c47c45))
+
 ## [0.0.11](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.0.10...v0.0.11) (2022-06-19)
 
 
