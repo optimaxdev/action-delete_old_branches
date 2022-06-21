@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.1.5...v0.1.6) (2022-06-21)
+
+
+### Performance Improvements
+
+* release ([45694c9](https://github.com/optimaxdev/action-delete_old_branches/commit/45694c9243841fc6a9d60f273bd0f3875cc998ee))
+
 ## [0.1.5](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.1.4...v0.1.5) (2022-06-21)
 
 
