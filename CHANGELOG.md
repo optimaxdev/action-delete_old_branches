@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.1.3...v0.1.4) (2022-06-21)
+
+
+### Bug Fixes
+
+* debug ([9c2d651](https://github.com/optimaxdev/action-delete_old_branches/commit/9c2d651cfb9c0492def99623d364bfeadf566c52))
+
 ## [0.1.3](https://github.com/optimaxdev/action-delete_old_branches/compare/v0.1.2...v0.1.3) (2022-06-21)
 
 
